@@ -9,8 +9,8 @@ namespace socketUDP
     public partial class Form1 : Form
     {
         private Socket socket; // Création d'un socket
-        private IPEndPoint remoteEndPoint; // Point de terminaison de l'hôte (destination)
-        private IPEndPoint localEndPoint; // Point de terminaison local (réception)
+        private IPEndPoint remoteEndPoint; // Point de terminaison de l'hôte
+        private IPEndPoint localEndPoint; // Point de terminaison local
 
         public Form1()
         {
